@@ -1,5 +1,5 @@
 # 2110263 DIGITAL COMPUTER LOGIC LABORATORY I
-By Worralop Srichainont
+2110263 DIGITAL COMPUTER LOGIC LABORATORY I Course in Chulalongkorn University (2024) By Worralop Srichainont
 
 ---
 
