@@ -16,4 +16,8 @@
 
 **ข้อควรทราบ:** การต่อวงจรแบบ Sum of Products หมายถึงการต่อวงจรโดยการนำ AND Gate หลายๆอันมาต่อกับ OR Gate
 
+```math
+\Huge{Output = A'B + AB'}
+```
+
 ![Image](https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B01/diglab_02_01.png)
