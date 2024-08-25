@@ -21,11 +21,7 @@
 
 **ข้อควรทราบ:** การต่อวงจรแบบ Product of Sums หมายถึงการต่อวงจรโดยการนำ OR Gate หลายๆอันมาต่อกับ AND Gate
 
-```math
-\Huge{C_{out} = (A + B)(A + C_{in})(B + C_{in})}
-```
-```math
-\Huge{Sum = (A + B + C_{in})(A' + B + C'_{in})(A + B' + C'_{in})(A' + B' + C_{in})}
-```
+## $C_{out} = (A + B)(A + C_{in})(B + C_{in})$
+## $Sum = (A + B + C_{in})(A' + B + C_{in}')(A + B' + C_{in}')(A' + B' + C_{in})$
 
-![Image](https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B04/diglab_%E2%80%8B02_%E2%80%8B04.png)
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B04/diglab_%E2%80%8B02_%E2%80%8B04.png" width="814" height="935">
