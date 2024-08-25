@@ -2,7 +2,7 @@
 ### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1W0zyqn9E_a2-WQ19l-L3xpcZyvcE8bzV/view?usp=drive_link)
 ---
 
-# Step 2: เขียน K-map 3 ตัวแปร เพื่อหาสมการ Boolean
+# Step 1: เขียน K-map 3 ตัวแปร เพื่อหาสมการ Boolean
 
 นำ Truth table ของวงจร Full-Adder (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 3 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
