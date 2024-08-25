@@ -16,8 +16,6 @@
 
 **ข้อควรทราบ:** การต่อวงจรแบบ Product of Sums หมายถึงการต่อวงจรโดยการนำ OR Gate หลายๆอันมาต่อกับ AND Gate
 
-```math
-\Huge{Output = (A+B)(A'+B')}
-```
+## $Output = (A + B)(A' + B')$
 
-![Image](https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B02/diglab_02_02.png)
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B02/diglab_02_02.png" width="840" height="479">
