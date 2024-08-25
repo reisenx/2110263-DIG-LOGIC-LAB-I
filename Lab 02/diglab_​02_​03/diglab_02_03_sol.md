@@ -21,11 +21,7 @@
 
 **ข้อควรทราบ:** การต่อวงจรแบบ Sum of Products หมายถึงการต่อวงจรโดยการนำ AND Gate หลายๆอันมาต่อกับ OR Gate
 
-```math
-\Huge{C_{out} = AC_{in} + BC_{in} + AB}
-```
-```math
-\Huge{Sum = AB'C'_{in} + A'B'C_{in} + ABC_{in} + A'BC'_{in}}
-```
+## $C_{out} = AC_{in} + BC_{in} + AB$
+## $Sum = AB'C_{in} ' + A'B'C_{in} + ABC_{in} + A'BC'_{in}$
 
-![Image](https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B03/diglab_02_03.png)
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B03/diglab_02_03.png" width="790" height="935">
