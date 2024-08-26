@@ -7,12 +7,12 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>A</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
         </entry>
       </elementAttributes>
       <pos x="300" y="120"/>
@@ -21,12 +21,12 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>B</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
         </entry>
       </elementAttributes>
       <pos x="380" y="120"/>
@@ -146,12 +146,20 @@
       <p2 x="340" y="240"/>
     </wire>
     <wire>
+      <p1 x="340" y="240"/>
+      <p2 x="340" y="380"/>
+    </wire>
+    <wire>
       <p1 x="420" y="140"/>
       <p2 x="420" y="160"/>
     </wire>
     <wire>
       <p1 x="420" y="200"/>
       <p2 x="420" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="360"/>
+      <p2 x="420" y="380"/>
     </wire>
     <wire>
       <p1 x="600" y="260"/>
@@ -170,12 +178,20 @@
       <p2 x="300" y="320"/>
     </wire>
     <wire>
+      <p1 x="300" y="320"/>
+      <p2 x="300" y="380"/>
+    </wire>
+    <wire>
       <p1 x="380" y="120"/>
       <p2 x="380" y="140"/>
     </wire>
     <wire>
       <p1 x="380" y="140"/>
       <p2 x="380" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="380" y="380"/>
     </wire>
   </wires>
   <measurementOrdering/>
