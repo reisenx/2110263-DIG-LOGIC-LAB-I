@@ -1,5 +1,5 @@
 # Multiplexer (Sum of Products) (diglab_​02_​07)
-### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1fzbXE230PaqTj0PeoZD5sVsxrSNBx3O4/view?usp=drive_link)
+### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1hbqErgX2DjF8mVMXwD9yQRe7qE2FMo8i/view?usp=drive_link)
 
 ---
 
