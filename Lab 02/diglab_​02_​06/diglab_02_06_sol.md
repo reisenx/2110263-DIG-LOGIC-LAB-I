@@ -16,17 +16,17 @@
 
 ---
 
-# Step 2: เขียน K-map 3 ตัวแปร เพื่อหาสมการ Boolean
+# Step 2: เขียน K-map 4 ตัวแปร เพื่อหาสมการ Boolean
 
-นำ Truth table ของวงจร Full-Adder (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 3 ตัวแปร จะได้สมการ Boolean ดังภาพ
+นำ Truth table ของวงจร Comparator มาเขียนอยู่ในรูปของ K-map 4 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
-### K-map 3 ตัวแปรสำหรับ Output **Z<sub>1</sub>**
+### K-map 4 ตัวแปรสำหรับ Output **Z<sub>1</sub>**
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_01.png" width="600" height="675">
 
-### K-map 3 ตัวแปรสำหรับ Output **Z<sub>2</sub>**
+### K-map 4 ตัวแปรสำหรับ Output **Z<sub>2</sub>**
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_02.png" width="600" height="681">
 
-### K-map 3 ตัวแปรสำหรับ Output **Z<sub>3</sub>**
+### K-map 4 ตัวแปรสำหรับ Output **Z<sub>3</sub>**
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_03.png" width="600" height="697">
 
 ---

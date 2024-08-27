@@ -4,7 +4,7 @@
 
 # Step 1: เขียน K-map 3 ตัวแปร เพื่อหาสมการ Boolean
 
-นำ Truth table ของวงจร Full-Adder (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 3 ตัวแปร จะได้สมการ Boolean ดังภาพ
+นำ Truth table ของวงจร FullAdder (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 3 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
 ### K-map 3 ตัวแปรสำหรับ Output **C<sub>out</sub>**
 
