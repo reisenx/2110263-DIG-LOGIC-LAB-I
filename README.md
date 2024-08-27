@@ -27,10 +27,10 @@
 # Laboratory 03
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_​03_​01`](https://drive.google.com/file/d/1RNgGcbrlr_2TEe9lUSFqrZRoutLsefec/view?usp=drive_link) | **BCD to Seven Segment Decoder** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`diglab_​03_​02`](https://drive.google.com/file/d/1BbsC5Ryw0RFujVEcTSQpyouxt5kUDM7x/view?usp=drive_link) | **DigLoLab ASCII** | [`Circuit`]() | [`Solution`]() |
-| 3 | [`diglab_​03_​03`](https://drive.google.com/file/d/1PdtybBFUd54dPD3jE8pDVD9fWMSMbsdZ/view?usp=drive_link) | **Binary Encoder** | [`Circuit`]() | [`Solution`]() |
-| 4 | [`diglab_​03_​04`](https://drive.google.com/file/d/1KsU_OyQdPX_kcYIvL20WfOx6rToq5-o-/view?usp=drive_link) | **Hamming Code** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_​03_​01`](https://drive.google.com/file/d/1RNgGcbrlr_2TEe9lUSFqrZRoutLsefec/view?usp=drive_link) | **BCD to Seven Segment Decoder** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_01/diglab_03_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_01/diglab_03_01_sol.md) |
+| 2 | [`diglab_​03_​02`](https://drive.google.com/file/d/1BbsC5Ryw0RFujVEcTSQpyouxt5kUDM7x/view?usp=drive_link) | **DigLoLab ASCII** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_02/diglab_03_02.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_02/diglab_03_02_sol.md) |
+| 3 | [`diglab_​03_​03`](https://drive.google.com/file/d/1PdtybBFUd54dPD3jE8pDVD9fWMSMbsdZ/view?usp=drive_link) | **Binary Encoder** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_03/diglab_03_03.dig) | [`Solution`]() |
+| 4 | [`diglab_​03_​04`](https://drive.google.com/file/d/1KsU_OyQdPX_kcYIvL20WfOx6rToq5-o-/view?usp=drive_link) | **Hamming Code** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_04/diglab_03_04.dig) | [`Solution`]() |
 
 # Laboratory 04
 | No | Problem Code | Name | Circuit | Solution |
