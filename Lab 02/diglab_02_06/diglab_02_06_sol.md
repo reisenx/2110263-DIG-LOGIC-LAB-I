@@ -12,7 +12,7 @@
 - **Z2** เป็นการเปรียบเทียบ N1 > N2 (ถ้าเป็นเท็จ Z1 = 0 และถ้าเป็นจริง Z2 = 1)
 - **Z3** เป็นการเปรียบเทียบ N1 = N2 (ถ้าเป็นเท็จ Z1 = 0 และถ้าเป็นจริง Z2 = 1)
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_table.png" width="619" height="676">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05_pics/diglab_02_05_table.png" width="619" height="676">
 
 ---
 
@@ -21,13 +21,13 @@
 นำ Truth table ของวงจร Comparator มาเขียนอยู่ในรูปของ K-map 4 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>1</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_01.png" width="600" height="675">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_06/diglab_02_06_pics/diglab_02_06_Kmap_01.png" width="600" height="675">
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>2</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_02.png" width="600" height="681">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_06/diglab_02_06_pics/diglab_02_06_Kmap_02.png" width="600" height="681">
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>3</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_03.png" width="600" height="697">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_06/diglab_02_06_pics/diglab_02_06_Kmap_03.png" width="600" height="697">
 
 ---
 
@@ -40,4 +40,4 @@
 ## $Z_{2} = (C + D)(B' + C)(A' + B')(A' + C)(A' + D)$
 ## $Z_{3} = (A + C')(A' + C)(B' + D)(B + D')$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B06/diglab_%E2%80%8B02_%E2%80%8B06.png" width="883" height="1632">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_06/diglab_02_06.png" width="883" height="1632">
