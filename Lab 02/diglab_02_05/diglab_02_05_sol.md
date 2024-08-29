@@ -12,7 +12,7 @@
 - **Z2** เป็นการเปรียบเทียบ N1 > N2 (ถ้าเป็นเท็จ Z1 = 0 และถ้าเป็นจริง Z2 = 1)
 - **Z3** เป็นการเปรียบเทียบ N1 = N2 (ถ้าเป็นเท็จ Z1 = 0 และถ้าเป็นจริง Z2 = 1)
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_table.png" width="619" height="676">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05_pics/diglab_02_05_table.png" width="619" height="676">
 
 ---
 
@@ -21,13 +21,13 @@
 นำ Truth table ของวงจร Full-Adder (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 4 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>1</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_01.png" width="600" height="693">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05_pics/diglab_02_05_Kmap_01.png" width="600" height="693">
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>2</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_02.png" width="600" height="680">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05_pics/diglab_02_05_Kmap_02.png" width="600" height="680">
 
 ### K-map 4 ตัวแปรสำหรับ Output **Z<sub>3</sub>**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_02_05_pics/diglab_02_05_Kmap_03.png" width="600" height="687">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05_pics/diglab_02_05_Kmap_03.png" width="600" height="687">
 
 ---
 
@@ -40,4 +40,4 @@
 ## $Z_{2} = A'C + A'B'D + B'CD$
 ## $Z_{3} = A'B'C'D' + A'B'C'D + ABCD + AB'CD'$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_%E2%80%8B02_%E2%80%8B05/diglab_%E2%80%8B02_%E2%80%8B05.png" width="716" height="1152">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_05/diglab_02_05.png" width="716" height="1152">
