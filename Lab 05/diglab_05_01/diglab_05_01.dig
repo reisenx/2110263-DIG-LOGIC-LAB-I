@@ -339,20 +339,15 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>test1</string>
+          <string>T1</string>
         </entry>
         <entry>
           <string>Testdata</string>
           <testData>
-            <dataString>A B C D Before After
-0 0 1 1 1 1
-1 0 1 1 1 1
-0 0 1 1 1 1
-1 0 1 1 1 1
-0 0 1 1 1 1
-1 0 1 1 1 1
-0 0 1 1 1 1
-1 0 1 1 1 1</dataString>
+            <dataString>A B C D Before
+0 0 1 1 1
+1 0 1 1 1
+1 0 1 1 1</dataString>
           </testData>
         </entry>
       </elementAttributes>
