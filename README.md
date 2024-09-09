@@ -35,6 +35,18 @@
 # Laboratory 04
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
+| 1 | [`diglab_04_01`]() | **Half Adder (Onsite)** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`diglab_04_02`]() | **Full Adder (Onsite)** | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 05
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`diglab_05_01`]() | **Glitch I** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`diglab_05_02`]() | **Glitch II** | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 06
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
 | 1 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
 | 2 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
 | 3 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
