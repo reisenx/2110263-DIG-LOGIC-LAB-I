@@ -9,7 +9,11 @@
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_TruthTable.png" width="672" height="424">
 
 ## ต่อวงจร Half Adder แบบ Sum of Product
-เมื่อนำ Truth Table มาวาด K-map แบบ 2 มิติจะได้ดังนี้
+เมื่อนำ Truth Table มาวาด K-map แบบ 2 ตัวแปรจะได้ดังนี้
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap01.png" width="473" height="501">
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap02.png" width="473" height="501">
 
 ซึ่งจาก K-map จะได้สมการ Boolean ทั้งหมด 2 สมการ ดังนี้
 
