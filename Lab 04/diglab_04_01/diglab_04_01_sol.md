@@ -5,9 +5,8 @@
 
 # Step 1: ต่อวงจร Half Adder แบบ Sum of Product (SOP)
 ## Truth Table
-สำหรับ Truth Table สามารถดูได้ที่คู่มือแลปเลย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_hamming.png" width="471" height="151">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_TruthTable.png" width="672" height="424">
 
 ## ต่อวงจร Half Adder แบบ Sum of Product
 เมื่อนำ Truth Table มาวาด K-map แบบ 2 มิติจะได้ดังนี้
