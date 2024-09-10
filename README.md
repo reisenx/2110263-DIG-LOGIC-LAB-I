@@ -35,14 +35,14 @@
 # Laboratory 04
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_04_01`]() | **Half Adder (Onsite)** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`diglab_04_02`]() | **Full Adder (Onsite)** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_04_01`](https://drive.google.com/file/d/1cWwg5P7O8KAnXi60t8aw2gi7A2KyzH53/view?usp=drive_link) | **Half Adder (Onsite)** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_01/Half_Adder_7400.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_01/diglab_04_01_sol.md) |
+| 2 | [`diglab_04_02`](https://drive.google.com/file/d/1cWwg5P7O8KAnXi60t8aw2gi7A2KyzH53/view?usp=drive_link) | **Full Adder (Onsite)** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_7400.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/diglab_04_02_sol.md) |
 
 # Laboratory 05
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_05_01`]() | **Glitch I** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`diglab_05_02`]() | **Glitch II** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_05_01`](https://drive.google.com/file/d/1-pgU_dNTRe6GDTKPcwK-nZ2icEwXbQET/view?usp=drive_link) | **Glitch I** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_01/diglab_05_01.dig) | [`Solution`]() |
+| 2 | [`diglab_05_02`](https://drive.google.com/file/d/1rwpKxKqkvpPQrHwt-uyCA7oQgyZU3fYO/view?usp=drive_link) | **Glitch II** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_02/diglab_05_02.dig) | [`Solution`]() |
 
 # Laboratory 06
 | No | Problem Code | Name | Circuit | Solution |
