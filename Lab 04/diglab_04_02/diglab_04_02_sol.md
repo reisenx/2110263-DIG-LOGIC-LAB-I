@@ -81,12 +81,14 @@ $C_{out} = (((A \oplus B)C_{in})'(AB)')'$
 - ขา `2A` และ `2B` เป็น Input ของ NAND Gate และจะ Output ทางขา `2Y`
 - ขา `3A` และ `3B` เป็น Input ของ NAND Gate และจะ Output ทางขา `3Y`
 - ขา `4A` และ `4B` เป็น Input ของ NAND Gate และจะ Output ทางขา `4Y`
+
 **หมายเหตุ:** บนโปรแกรม Digital ถ้าหากไม่ได้ใช้ Input ขาไหนให้ต่อลง Ground ให้หมด
+
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width="354" height="491">
 
 เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรบนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_to7400.jpg" width="1091" height="390">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_to7400.jpg" width="873" height="312">
 
 เมื่อร่างเสร็จแล้ว เราสามารถที่จะต่อวงจรด้วย IC 7400 บนโปรแกรม Digital ได้ดังนี้เลย
 
