@@ -95,3 +95,7 @@ $C_{out} = (((A \oplus B)C_{in})'(AB)')'$
 เมื่อนำวงจรที่ต่อบน Digital มาต่อเป็นวงจรจริงๆก็จะมีลักษณะหน้าตาประมาณนี้เลย
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Circuit.png" width="768" height="303">
+
+ส่วนอันนี้คือวงจร Full Adder ที่ต่อในคาบจริง (ดูยากมากๆ 555555)
+
+<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_RealCircuit.jpg" width="771" height="579">
