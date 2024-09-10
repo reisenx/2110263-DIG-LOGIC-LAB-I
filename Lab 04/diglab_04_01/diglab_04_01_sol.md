@@ -102,7 +102,9 @@ $C_{out} = ((AB)'(AB)')'$
 - ขา `2A` และ `2B` เป็น Input ของ NAND Gate และจะ Output ทางขา `2Y`
 - ขา `3A` และ `3B` เป็น Input ของ NAND Gate และจะ Output ทางขา `3Y`
 - ขา `4A` และ `4B` เป็น Input ของ NAND Gate และจะ Output ทางขา `4Y`
+
 **หมายเหตุ:** บนโปรแกรม Digital ถ้าหากไม่ได้ใช้ Input ขาไหนให้ต่อลง Ground ให้หมด
+
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width="354" height="491">
 
 เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรบนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
