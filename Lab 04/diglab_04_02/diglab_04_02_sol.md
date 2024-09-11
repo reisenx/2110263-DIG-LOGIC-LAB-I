@@ -86,7 +86,7 @@ $C_{out} = (((A \oplus B)C_{in})'(AB)')'$
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width="354" height="491">
 
-เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรบนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
+เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรด้วย IC 7400 บนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_to7400.jpg" width="873" height="312">
 
