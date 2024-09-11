@@ -41,8 +41,8 @@
 # Laboratory 05
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_05_01`](https://drive.google.com/file/d/1-pgU_dNTRe6GDTKPcwK-nZ2icEwXbQET/view?usp=drive_link) | **Glitch I** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_01/diglab_05_01.dig) | [`Solution`]() |
-| 2 | [`diglab_05_02`](https://drive.google.com/file/d/1rwpKxKqkvpPQrHwt-uyCA7oQgyZU3fYO/view?usp=drive_link) | **Glitch II** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_02/diglab_05_02.dig) | [`Solution`]() |
+| 1 | [`diglab_05_01`](https://drive.google.com/file/d/1-pgU_dNTRe6GDTKPcwK-nZ2icEwXbQET/view?usp=drive_link) | **Glitch I** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_01/diglab_05_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_01/diglab_05_01_sol.md) |
+| 2 | [`diglab_05_02`](https://drive.google.com/file/d/1rwpKxKqkvpPQrHwt-uyCA7oQgyZU3fYO/view?usp=drive_link) | **Glitch II** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_02/diglab_05_02.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2005/diglab_05_02/diglab_05_02_sol.md) |
 
 # Laboratory 06
 | No | Problem Code | Name | Circuit | Solution |
