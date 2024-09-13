@@ -47,6 +47,20 @@
 # Laboratory 06
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
+| 1 | [`diglab_06_01`]() | **ALU** | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 07
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`diglab_07_01`]() | **Simple Memory** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`diglab_07_02`]() | **RS Latch (NOR)** | [`Circuit`]() | [`Solution`]() |
+| 3 | [`diglab_07_03`]() | **Master-Slave JK Flip-flop** | [`Circuit`]() | [`Solution`]() |
+| 4 | [`diglab_07_04`]() | **Positive Edge Trigger D Flip-flop** | [`Circuit`]() | [`Solution`]() |
+| 5 | [`diglab_07_05`]() | **Positive Edge Trigger T Flip-flop** | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 08
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
 | 1 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
 | 2 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
 | 3 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
