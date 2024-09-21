@@ -263,6 +263,6 @@ $G = X_{2}X_{1}' + X_{2}'X_{1} + X_{0}'X_{1} + X_{3}$
 ## $D = X_{2}X_{1}'X_{0} + X_{2}'X_{1} + X_{2}'X_{0}' + X_{1}X_{0}' + X_{3}$
 ## $E = X_{2}'X_{0}' + X_{1}X_{0}'$
 ## $F = X_{1}'X_{0}' + X_{3} + X_{2}$
-## $G = X_{2}X_{1}' + X_{2}'X_{1} + X_{0}'X_{1} + X_{3}$
+## $G = X_{2}X_{1}' + X_{2}'X_{1} + X_{0}'X_{2} + X_{3}$
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01.png" width="788" height="965">
