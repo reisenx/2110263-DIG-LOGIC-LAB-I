@@ -13,11 +13,11 @@
 - แถบ LED ตัวอักษร A,D,E เป็น 0
 - แถบ LED ตัวอักษร B,C,F,G เป็น 1
 
-![Display](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_display.png)
+<img src = "https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_display.png" width=70% height=70%>
 
 เมื่อทราบหลักการของ Seven segment display แล้ว เราจะสามารถเขียน Truth Table ของการแสดงผลหมายเลขตั้งแต่ 0 ถึง 9 ได้ดังตาราง
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_table.png" width="481" height="721">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_table.png" width=50% height=50%>
 
 ---
 
@@ -32,7 +32,7 @@
 ## ขั้นตอนการใช้งานโปรแกรม ESPRESSO logic minimizer
 1. สร้างไฟล์ Input และไฟล์ Output ผ่าน Text Editor เป็นไฟล์นามสกุล `.pla` (จริงๆ Visual Studio Code ก็ใช้งานได้)
 2. กรอก Command line ลงไปในไฟล์ Input แบบในภาพนี้
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_input.png" width="960" height="540">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_input.png" width=80% height=80%>
 
 3. เปิด Command Prompt ไปยัง path ที่อยู่ Folder ที่มีทั้งไฟล์ `.pla` และโปรแกรม `espresso.exe` อยู่ โดยใช้คำสั่งข้างล่างนี้
 
@@ -48,7 +48,7 @@ espresso -o eqntott [INSERT INPUT FILE NAME HERE] > [INSERT OUTPUT FILE NAME HER
 ```
 
 6. เปิดไฟล์ Output บน Text Editor ก็จะเห็นผลลัพธ์เป็นสมการ Boolean ดังภาพ
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_output.png" width="960" height="540">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01_pics/diglab_03_01_output.png" width=80% height=80%>
 
 
 ## กรอก Command line ลงในไฟล์ Input
@@ -265,4 +265,4 @@ $G = X_{2}X_{1}' + X_{2}'X_{1} + X_{0}'X_{1} + X_{3}$
 ## $F = X_{1}'X_{0}' + X_{3} + X_{2}$
 ## $G = X_{2}X_{1}' + X_{2}'X_{1} + X_{0}'X_{2} + X_{3}$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01.png" width="788" height="965">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_01/diglab_03_01.png" width=80% height=80%>
