@@ -6,14 +6,14 @@
 # Step 1: ต่อวงจร Half Adder แบบ Sum of Product (SOP)
 ## Truth Table
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_TruthTable.png" width="672" height="424">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_TruthTable.png" width=60% height=60%>
 
 ## ต่อวงจร Half Adder แบบ Sum of Product
 เมื่อนำ Truth Table มาวาด K-map แบบ 2 ตัวแปรจะได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap01.png" width="473" height="501">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap01.png" width=40% height=40%>
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap02.png" width="473" height="501">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_Kmap02.png" width=40% height=40%>
 
 ซึ่งจาก K-map จะได้สมการ Boolean ทั้งหมด 2 สมการ ดังนี้
 
@@ -22,7 +22,7 @@
 
 และเขียนวงจรจากสมการดังกล่าวได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_SOP.png" width="644" height="313">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_SOP.png" width=60% height=60%>
 
 ---
 
@@ -30,15 +30,15 @@
 
 จากวงจร Sum of Product (SOP) วงจรนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_SOP.png" width="644" height="313">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_SOP.png" width=60% height=60%>
 
 เราจะพิจารณาที่สมการของ `Sum` ก่อน ซึ่งเราจะสามารถเขียน NOT Gate ให้อยู่ในรูป Bubble ได้ลักษณะแบบนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND01.png" width="683" height="188">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND01.png" width=60% height=60%>
 
 จากนั้นเติม Bubble ที่หัวของ AND Gate เพื่อแปลง AND Gate ให้กลายเป็น NAND Gate และเติม Bubble ที่บริเวณ Input ทั้งสองของ OR Gate เพื่อให้สมการ Boolean ยังคงเป็นสมการเดิมอยู่
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND02_Annotation.jpg" width="834" height="230">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND02_Annotation.jpg" width=60% height=60%>
 
 **พิจารณาวงจรบริเวณกรอบสีแดง**
 
@@ -66,13 +66,13 @@ $(AB')' = (B(AB)')'$
 
 เมื่อพิจารณาวงจรบนกรอบสีแดงและสีเขียวเสร็จสิ้น เราจะเห็นว่าเราจะสามารถต่อ NAND Gate ได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND03_Annotation.jpg" width="828" height="217">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND03_Annotation.jpg" width=60% height=60%>
 
 และจากที่เราทราบกันว่า Sum สามารถเขียนได้อยู่ในรูปของ XOR ได้ดังนี้ $Sum = A \oplus B$
 
 ภาพวงจรข้างล่างนี้ จึงเป็นการต่อวงจร XOR ด้วย NAND Gate จำนวนน้อยที่สุดซึ่งก็คือ 4 Gate 
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND03.png" width="828" height="217">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_toNAND03.png" width=60% height=60%>
 
 หากยังไม่เข้าใจ สามารถดูคลิปสอนการต่อ Gate แบบต่างๆโดยใช้แค่ NAND Gate เพื่อเสริมความเข้าใจกับแลปนี้เพิ่มเติมได้
 - NAND Gate as Universal Gate (Part 1) By Neso Academy - [Click Here](https://youtu.be/ChtmE09BSy0?si=AbYdJKjGZTbH2O7K)
@@ -87,7 +87,7 @@ $C_{out} = ((AB)')'$
 
 $C_{out} = ((AB)'(AB)')'$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_NAND_Annotation.jpg" width="834" height="403">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_NAND_Annotation.jpg" width=60% height=60%>
 
 ---
 
@@ -105,16 +105,16 @@ $C_{out} = ((AB)'(AB)')'$
 
 **หมายเหตุ:** บนโปรแกรม Digital ถ้าหากไม่ได้ใช้ Input ขาไหนให้ต่อลง Ground ให้หมด
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width="354" height="491">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width=30% height=30%>
 
 เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรด้วย IC 7400 บนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_to7400.jpg" width="834" height="403">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/Half_Adder_to7400.jpg" width=70% height=70%>
 
 เมื่อร่างเสร็จแล้ว เราสามารถที่จะต่อวงจรด้วย IC 7400 บนโปรแกรม Digital ได้ดังนี้เลย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_7400.png" width="469" height="670">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_7400.png" width=40% height=40%>
 
 เมื่อนำวงจรที่ต่อบน Digital มาต่อเป็นวงจรจริงๆก็จะมีลักษณะหน้าตาประมาณนี้เลย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Circuit.png" width="768" height="303">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Circuit.png" width=100% height=100%>
