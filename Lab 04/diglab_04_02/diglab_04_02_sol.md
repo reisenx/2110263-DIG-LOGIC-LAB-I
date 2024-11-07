@@ -6,14 +6,14 @@
 # Step 1: ต่อวงจร Full Adder แบบ Sum of Product (SOP)
 ## Truth Table
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_TruthTable.png" width="555" height="464">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_TruthTable.png" width=60% height=60%>
 
 ## ต่อวงจร Full Adder แบบ Sum of Product
 เมื่อนำ Truth Table มาวาด K-map แบบ 3 ตัวแปรจะได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_Kmap01.png" width="460" height="346">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_Kmap01.png" width=60% height=60%>
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_Kmap02.png" width="460" height="346">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_Kmap02.png" width=60% height=60%>
 
 ซึ่งจาก K-map จะได้สมการ Boolean ทั้งหมด 2 สมการ ดังนี้
 
@@ -22,7 +22,7 @@
 
 และเขียนวงจรจากสมการดังกล่าวได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_SOP.png" width="538" height="729">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_SOP.png" width=60% height=60%>
 
 ---
 
@@ -30,17 +30,17 @@
 
 จากวงจร Sum of Product (SOP) วงจรนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_SOP.png" width="538" height="729">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_SOP.png" width=60% height=60%>
 
 เราจะพิจารณาที่สมการของ `Sum` ก่อน ซึ่งจากที่เราทราบกันว่าเราสามารถเขียนสมการ Boolean ของ `Sum` ให้อยู่ใน XOR Gate ได้เป็น $Sum = A \oplus B \oplus C$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_toNAND01.png" width="543" height="118">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_toNAND01.png" width=60% height=60%>
 
 จาก XOR Gate สามารถต่ออยู่ในรูปของ NAND Gate จำนวน 4 Gate ([สามารถอ่านวิธีการแปลงวงจร XOR เป็น NAND เพิ่มเติมได้ที่นี่](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_01/diglab_04_01_sol.md#step-2-%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3-half-adder-%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A-sum-of-product-sop-%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99-nand-gate))
 
 เราจึงสามารถแปลงวงจร XOR แบบ 2 Gate ตามข้างบน ให้อยู่ในรูปของวงจร NAND Gate จำนวน 8 Gate ได้ดังภาพ
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_toNAND02_Annotation.jpg" width="832" height="177">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_toNAND02_Annotation.jpg" width=80% height=80%>
 
 **พิจารณาวงจรของ $C_{out}$**
 
@@ -66,7 +66,7 @@ $C_{out} = (((A \oplus B)C_{in})'(AB)')'$
 
 เมื่อพิจารณาวงจรของ $C_{out}$ เสร็จสิ้น จะสามารถเขียนวงจรได้ดังนี้
 
-<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_NAND_Annotation.jpg" width="834" height="274">
+<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_NAND_Annotation.jpg" width=80% height=80%>
 
 ---
 
@@ -84,20 +84,20 @@ $C_{out} = (((A \oplus B)C_{in})'(AB)')'$
 
 **หมายเหตุ:** บนโปรแกรม Digital ถ้าหากไม่ได้ใช้ Input ขาไหนให้ต่อลง Ground ให้หมด
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width="354" height="491">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_01/Half_Adder_Additional/IC7400.jpg" width=30% height=30%>
 
 เมื่อเข้าใจหลักการแล้ว เราสามารถร่างการต่อวงจรด้วย IC 7400 บนวงจร NAND Gate ที่เราต่อมาอยู่แล้วได้ ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_to7400.jpg" width="873" height="312">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Additional/Full_Adder_to7400.jpg" width=80% height=80%>
 
 เมื่อร่างเสร็จแล้ว เราสามารถที่จะต่อวงจรด้วย IC 7400 บนโปรแกรม Digital ได้ดังนี้เลย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_7400.png" width="577" height="1070">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_7400.png" width=60% height=60%>
 
 เมื่อนำวงจรที่ต่อบน Digital มาต่อเป็นวงจรจริงๆก็จะมีลักษณะหน้าตาประมาณนี้เลย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Circuit.png" width="768" height="303">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2004/diglab_04_02/Full_Adder_Circuit.png" width=80% height=80%>
 
 ส่วนอันนี้คือวงจร Full Adder ที่ต่อในคาบจริง (ดูยากมากๆ 555555)
 
-<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_RealCircuit.jpg" width="771" height="579">
+<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2004/diglab_04_02/Full_Adder_RealCircuit.jpg" width=60% height=60%>
