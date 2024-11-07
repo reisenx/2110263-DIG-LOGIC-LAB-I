@@ -8,10 +8,10 @@
 
 ### K-map 3 ตัวแปรสำหรับ Output **C<sub>out</sub>**
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03_pics/diglab_02_03_Kmap_01.png" width="695" height="500">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03_pics/diglab_02_03_Kmap_01.png" width=60% height=60%>
 
 ### K-map 3 ตัวแปรสำหรับ Output **Sum**
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03_pics/diglab_02_03_Kmap_02.png" width="695" height="500">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03_pics/diglab_02_03_Kmap_02.png" width=60% height=60%>
 
 ---
 
@@ -24,4 +24,4 @@
 ## $C_{out} = AC_{in} + BC_{in} + AB$
 ## $Sum = AB'C_{in} ' + A'B'C_{in} + ABC_{in} + A'BC'_{in}$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03.png" width="790" height="935">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_03/diglab_02_03.png" width=80% height=80%>
