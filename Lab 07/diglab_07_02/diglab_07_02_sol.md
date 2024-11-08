@@ -22,7 +22,7 @@
 - ถ้าไม่กดอะไรเลย ก็จะค้าง Output เป็นค่าเดิมไปเรื่อยๆ จนกว่าจะมีการกดปุ่มเกิดขึ้น
 - ไม่รองรับการกดปุ่ม `R` และ `S` พร้อมกัน
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02_pics/diglab_07_02_table.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02_pics/diglab_07_02_table.png" width=40% height=40%>
 
 ## ลักษณะวงจร RS Latch
 
