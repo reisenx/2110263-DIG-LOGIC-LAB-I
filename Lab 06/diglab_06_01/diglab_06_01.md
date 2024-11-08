@@ -16,7 +16,7 @@
 - ในส่วนของ `Arithmetic Unit` จะมีหน้าที่ตาม Truth Table ในส่วนของ Arithmetic Functions
 - ใช้ `Multiplexer 2:1` ในการเลือกว่าจะให้ Output เป็นของ `Logical Unit` หรือ `Arithmetic Unit`
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_circuit.jpg" width=60% height=60%>
 
 ---
 
@@ -24,7 +24,7 @@
 
 ต่อวงจรตาม Logical Functions บนตาราง Truth Table
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_logic01.png" width=40% height=40%>
 
 จากวงจรแบบคร่าวๆที่เราได้วาดขึ้นมาข้างบน เราจะทราบว่า
 - วงจร `Logical Unit` จะมี Input คือ `A` (4 Bits) และ `B` (4 Bits)
@@ -33,7 +33,7 @@
 
 ซึ่งวงจรที่มีหน้าที่ลักษณะนี้ คือ `Multiplexer 8:1` ดังนั้นเราจะต้องนำวงจรที่ต่อขึ้นมาทั้งหมด มารวมกันได้ดังนี้
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_logic02.png" width=40% height=40%>
 
 ---
 
@@ -49,7 +49,7 @@
 - การใช้ NOT Gate กับเลข `A` คือการกลับบิต ซึ่งค่าที่ได้เท่ากับ `-A-1`
 - เพื่อความง่ายต่อการตรวจสอบวงจร สามารถตั้งค่าให้ Constant Value ที่ต่อกับวงจร Adder แสดงค่าเป็น Signed decimal ได้ ดังภาพข้างล่าง
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_settings.png" width=60% height=60%>
 
 วงจร Adder จะสามารถใส่ได้ 3 Input คือ
 - Input `a` และ `b` ให้ใส่เลขที่ต้องการบวก มีขนาดกี่บิตก็ได้ แต่ต้องเท่ากัน
@@ -58,7 +58,7 @@
 
 เมื่อทราบรายละเอียดข้างบน และดูจาก Truth Table ก็จะสามารถต่อได้ดังนี้
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_arithmetic01.png" width=40% height=40%>
 
 ## วงจรเลื่อนบิต (Shifter)
 
@@ -68,7 +68,7 @@
 
 เราจึงสามารถใช้ Splitter/Merger ในการเลื่อนบิต และใส่ค่า `0` ให้กับบิตซ้ายสุด หรือขวาสุดได้เลย
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_arithmetic02.png" width=60% height=60%>
 
 จากวงจรแบบคร่าวๆที่เราได้วาดขึ้นมาข้างบน เราจะทราบว่า
 - วงจร `Arithmetic Unit` จะมี Input คือ `A` (4 Bits), `B` (4 Bits) และ `C` (1 Bit)
@@ -77,7 +77,7 @@
 
 ซึ่งวงจรที่มีหน้าที่ลักษณะนี้ คือ `Multiplexer 8:1` ดังนั้นเราจะต้องนำวงจรที่ต่อขึ้นมาทั้งหมด มารวมกันได้ดังนี้
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_arithmetic03.png" width=40% height=40%>
 
 ---
 
@@ -85,3 +85,4 @@
 
 ในขั้นตอน 2 และ 3 จะได้วงจรในส่วน `Logical Unit` และ `Arithmetic Unit` มาแล้ว เหลือเพียงนำวงจร 2 ชุดนี้มาต่อเข้าด้วยกันด้วย `Multiplexer 2:1` เท่านั้น ซึ่งจะได้วงจรออกมาลักษณะนี้เลย
 
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01.png" width=80% height=80%>
