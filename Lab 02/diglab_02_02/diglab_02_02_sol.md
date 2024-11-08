@@ -6,7 +6,7 @@
 
 นำ Truth table ของวงจร XOR (ระบุไว้ในโจทย์) มาเขียนอยู่ในรูปของ K-map 2 ตัวแปร จะได้สมการ Boolean ดังภาพ
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_02/diglab_02_02_pics/diglab_02_02_Kmap.png" width="500" height="599">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_02/diglab_02_02_pics/diglab_02_02_Kmap.png" width=40% height=40%>
 
 ---
 
@@ -18,4 +18,4 @@
 
 ## $Output = (A + B)(A' + B')$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_02/diglab_02_02.png" width="840" height="479">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2002/diglab_02_02/diglab_02_02.png" width=80% height=80%>

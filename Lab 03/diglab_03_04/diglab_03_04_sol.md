@@ -13,14 +13,14 @@ Hamming Code เป็นการเข้ารหัสที่ใช้ใ�
 - Data bits ขนาด 4 bits แทนด้วย `M1`, `M2`, `M3` และ `M4`
 - Pairity bits ขนาด 3 bits แทนด้วย `P1`, `P2` และ `P3`
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_hamming.png" width="471" height="151">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_hamming.png" width=40% height=40%>
 
 สำหรับโจทย์ในข้อนี้ จะให้แก้ไข Hamming Code ที่ผิดพลาดไม่เกิน 1 bit โดยที่แนวทางการต่อวงจรสามารถอ่านได้ที่[คู่มือการทำ LAB 03](https://drive.google.com/file/d/1aTJvKOEmSuCjasI7azTFhIKsR9h_Zdn1/view?usp=drive_link) ซึ่งในใบงานจะให้เราต่อวงจรทั้งหมด 3 ชุดได้แก่ `Circuit A`, `Circuit B` และ `Circuit C`
 
 ## พิจารณา Truth Table ของ `Circuit A`
 จากคู่มือการต่อวงจร จะสามารถสรุปการต่อ `Circuit A` ได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_A.png" width="426" height="251">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_A.png" width=40% height=40%>
 
 ## $C_{1} = P_{3} \oplus M_{2} \oplus M_{3} \oplus M_{4}$
 ## $C_{2} = P_{2} \oplus M_{1} \oplus M_{3} \oplus M_{4}$
@@ -37,7 +37,7 @@ Hamming Code เป็นการเข้ารหัสที่ใช้ใ�
 - ถ้า `C1` `C2` `C3` เป็น `1` `1` `0` จะได้ว่า `B6` เป็น `1`
 - ถ้า `C1` `C2` `C3` เป็น `1` `1` `1` จะได้ว่า `B7` เป็น `1`
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_B.png" width="551" height="551">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_B.png" width=40% height=40%>
 
 ## พิจารณา Truth Table ของ `Circuit C`
 จากคู่มือการต่อวงจร จะสามารถสรุป Truth Table ของ `Circuit B` ได้ดังนี้
@@ -49,7 +49,7 @@ Hamming Code เป็นการเข้ารหัสที่ใช้ใ�
 - ถ้า `B6` เป็น `1` ให้สลับ `M3` จาก `0` เป็น `1` และจาก `1` เป็น `0`
 - ถ้า `B7` เป็น `1` ให้สลับ `M4` จาก `0` เป็น `1` และจาก `1` เป็น `0`
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_C.png" width="720" height="521">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04_pics/diglab_03_04_table_C.png" width=60% height=60%>
 
 ถ้าดูจาก Truth Table ของ `Circuit C` แล้วจะเห็นว่าแต่ละ Bits จะมีการดำเนินการแบบ XOR ทั้งหมดเลย ก็คือ
 - $Z_{1} = P_{1} \oplus B_{1}$
@@ -147,4 +147,4 @@ B7 = (C1&C2&C3);
 3. นำข้อมูลจาก 2 ข้อแรกมา XOR กันเป็น Output
 
 ### Output 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04.png" width="1002" height="671">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_04/diglab_03_04.png" width=80% height=80%>

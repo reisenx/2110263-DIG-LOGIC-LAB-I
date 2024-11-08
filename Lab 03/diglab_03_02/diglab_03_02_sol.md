@@ -19,7 +19,7 @@
 
 จากข้อมูลข้างต้น เราจะสามารถเขียน Truth Table ของโจทย์ข้อนี้ได้ดังตาราง
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_02/diglab_03_02_pics/diglab_03_02_table.png" width="741" height="501">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_02/diglab_03_02_pics/diglab_03_02_table.png" width=60% height=60%>
 
 ---
 
@@ -184,4 +184,4 @@ $H = X_{2}'X_{1}'X_{0} + X_{2}X_{0}' + X_{1}X_{0}'$
 ## $G = X_{2}X_{1}X_{0} + X_{2}X_{1}'X_{0}' + X_{2}'X_{1}X_{0}'$
 ## $H = X_{2}'X_{1}'X_{0} + X_{2}X_{0}' + X_{1}X_{0}'$
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_02/diglab_03_02.png" width="781" height="1222">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_02/diglab_03_02.png" width=80% height=80%>

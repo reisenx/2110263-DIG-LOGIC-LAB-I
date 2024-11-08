@@ -11,7 +11,7 @@
 - ตัวแปร `C3`, `C2`, `C1`, `C0` เก็บข้อมูลที่ได้จากการเข้ารหัสแบบ 2 4 2 1 Code
 - ตัวแปร `D3`, `D2`, `D1`, `D0` เก็บข้อมูลที่ได้จากการเข้ารหัสแบบ 6 4 2 -3 Code
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_03/diglab_03_03_pics/diglab_03_03_table01.png" width="841" height="761">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_03/diglab_03_03_pics/diglab_03_03_table01.png" width=80% height=80%>
 
 ## Truth Table ของ Multiplexer 4-to-1
 จากโจทย์บอกให้วงจรทำการเข้ารหัสด้วยโดยอ้างอิงตาม Selector
@@ -26,7 +26,7 @@
 - Multiplexer 4-to-1 ตัวที่ 3 ใช้งานกับ Input ตัวแปร `A2`, `B2`, `C2`, `D2`
 - Multiplexer 4-to-1 ตัวที่ 4 ใช้งานกับ Input ตัวแปร `A3`, `B3`, `C3`, `D3`
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_03/diglab_03_03_pics/diglab_03_03_table02.png" width="666" height="491">
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/main/Lab%2003/diglab_03_03/diglab_03_03_pics/diglab_03_03_table02.png" width=60% height=80%>
 
 จาก Truth Table ของ Multiplexer 4-to-1 ทั้ง 4 ตัว จะสามารถหาสมการ Boolean ของ Multiplexer แต่ละตัวได้ดังนี้
 ## $Z_{0} = S_{1}'S_{0}'A_{0} + S_{1}'S_{0}B_{0} + S_{1}S_{0}'C_{0} + S_{1}S_{0}D_{0}$
@@ -370,4 +370,4 @@ $D_{0} = X_{0}$
 ### $Z_{2} = S_{1}'S_{0}'A_{2} + S_{1}'S_{0}B_{2} + S_{1}S_{0}'C_{2} + S_{1}S_{0}D_{2}$
 ### $Z_{3} = S_{1}'S_{0}'A_{3} + S_{1}'S_{0}B_{3} + S_{1}S_{0}'C_{3} + S_{1}S_{0}D_{3}$
 
-<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_03/diglab_03_03.png" width="1102" height="740">
+<img src="https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2003/diglab_03_03/diglab_03_03.png" width=100% height=100%>
