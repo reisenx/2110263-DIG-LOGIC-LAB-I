@@ -26,4 +26,4 @@
 
 ## ลักษณะวงจร RS Latch
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02.png" width=80% height=80%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02.png" width=60% height=60%>
