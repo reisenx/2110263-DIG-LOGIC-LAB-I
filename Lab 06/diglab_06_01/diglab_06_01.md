@@ -7,7 +7,11 @@
 
 **ALU (Arithmetic and Logic Unit)** คือวงจรที่สามารถดำเนินการทางตรรกศาสตร์ (Logical Function) และดำเนินการทางคณิตศาสตร์ (Arithmetic Function) ได้ในตัวเดียว
 
-จากตาราง Truth Table ที่ให้มาในโจทย์นั้น สามารถปรับการเขียนเพื่อให้สามารถต่อวงจรได้ง่ายขึ้น ดังตาราง
+จากตาราง Truth Table ในโจทย์
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_Table.png" width=60% height=60%>
+
+เราจะสามารถปรับรูปแบบของ Truth Table เพื่อให้สามารถต่อวงจรได้ง่ายขึ้น ดังตาราง
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2006/diglab_06_01/diglab_06_01_pics/diglab_06_01_ModTable.png" width=60% height=60%>
 
