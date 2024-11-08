@@ -1,4 +1,4 @@
-# Master-Slave JK Flip-flop (diglab_07_03)
+# Positive Edge Trigger D Flip-flop (diglab_07_04)
 ### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1Vu4y7l2ZnqPItOq-FGoYFCJG_-sVJYZJ/view?usp=drive_link)
 
 ---
@@ -29,12 +29,6 @@
 
 ## Master-Slave JK Flip-flop (SET)
 
-| Step | `Clock` | `J` | `K` | `P` | `Q` | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | 0 | 1 | 0 | 0 | 0 | สถานะเริ่มต้น ยังไม่มีการเปลี่ยนแปลง |
-| 2 | 1 | 1 | 0 | 1 | 0 | Master Stage เปลี่ยนค่า `P = 1` |
-| 3 | 0 | 1 | 0 | 1 | 1 | Slave Stage เปลี่ยนค่า `Q = 1` |
-
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_01.png" width=60% height=60%>
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_02.png" width=60% height=60%>
@@ -43,12 +37,6 @@
 
 ## Master-Slave JK Flip-flop (RESET)
 
-| Step | `Clock` | `J` | `K` | `P` | `Q` | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | 0 | 0 | 1 | 1 | 1 | สถานะเริ่มต้น ยังไม่มีการเปลี่ยนแปลง |
-| 2 | 1 | 0 | 1 | 0 | 1 | Master Stage เปลี่ยนค่า `P = 0` |
-| 3 | 0 | 0 | 1 | 0 | 0 | Slave Stage เปลี่ยนค่า `Q = 0` |
-
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_01.png" width=60% height=60%>
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_02.png" width=60% height=60%>
@@ -56,14 +44,6 @@
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_03.png" width=60% height=60%>
 
 ## Master-Slave JK Flip-flop (TOGGLE)
-
-| Step | `Clock` | `J` | `K` | `P` | `Q` | Description |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | 0 | 1 | 1 | 0 | 0 | สถานะเริ่มต้น ยังไม่มีการเปลี่ยนแปลง |
-| 2 | 1 | 1 | 1 | 1 | 0 | Master Stage เปลี่ยนค่า `P = 1` |
-| 3 | 0 | 1 | 1 | 1 | 1 | Slave Stage เปลี่ยนค่า `Q = 1` |
-| 4 | 1 | 1 | 1 | 0 | 1 | Master Stage เปลี่ยนค่า `P = 0` |
-| 5 | 0 | 1 | 1 | 0 | 0 | Slave Stage เปลี่ยนค่า `Q = 0` |
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_01.png" width=60% height=60%>
 
