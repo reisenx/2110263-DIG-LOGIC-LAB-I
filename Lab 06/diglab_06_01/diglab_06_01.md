@@ -1,5 +1,5 @@
 # ALU (diglab_06_01)
-### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1rwpKxKqkvpPQrHwt-uyCA7oQgyZU3fYO/view?usp=drive_link)
+### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1wdO0rKlXc6ZgF-pjNcouAHFiz2i_ggcQ/view?usp=drive_link)
 
 ---
 
