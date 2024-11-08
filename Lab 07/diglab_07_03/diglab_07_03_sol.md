@@ -11,7 +11,7 @@
 - เมื่อกดปุ่ม `J` และ `K` พร้อมกัน จะเกิดการ Toggle คือ Output จะสลับค่า `0` และ `1` ไปเรื่อยๆทุกๆสัญญาณ `Clock = 1`
 - วงจร JK Flip-flop ทำงานเมื่อสัญญาณ `Clock = 1` เท่านั้น
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JKtable.png" width=40% height=40%>
 
 ## หลักการทำงานของ Master-Slave JK Flip-flop
 - วงจรแบบ Master-Slave จะประกอบไปด้วย 2 Stage คือ Master Stage และ Slave Stage
@@ -21,7 +21,7 @@
 ## ลักษณะวงจร Master-Slave JK Flip-flop
 วงจร Master-Slave JK Flip-flop ที่ยังไม่มีปุ่ม `\Clear` มีลักษณะดังนี้
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK_MS.png" width=60% height=60%>
 
 ---
 
@@ -29,15 +29,31 @@
 
 ## Master-Slave JK Flip-flop (SET)
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02_pics/diglab_07_02_table.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_01.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_02.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_03.png" width=60% height=60%>
 
 ## Master-Slave JK Flip-flop (RESET)
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02.png" width=80% height=80%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_01.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_02.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_03.png" width=60% height=60%>
 
 ## Master-Slave JK Flip-flop (TOGGLE)
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_01.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_02.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_03.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_04.png" width=60% height=60%>
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_05.png" width=60% height=60%>
 
 ---
 
@@ -55,4 +71,4 @@
 
 ดังนั้นเราจะสามารถต่อวงจร Master-Slave JK Flip-flop ที่มีปุ่ม `\Clear` ได้ดังนี้
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03.png" width=80% height=80%>
