@@ -1,74 +1,67 @@
 # Positive Edge Trigger D Flip-flop (diglab_07_04)
-### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1Vu4y7l2ZnqPItOq-FGoYFCJG_-sVJYZJ/view?usp=drive_link)
+### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1fX9sh0kI4kq14EfsHhKPfV-efYWBSNvt/view?usp=drive_link)
 
 ---
-# Step 1: เข้าใจการทำงานของ Master-Slave JK Flip-flop
+# Step 1: เข้าใจการทำงานของ Positive Edge Trigger D Flip-flop
 
-## หลักการทำงานของ JK Flip-flop
-- ปุ่ม `J` คือปุ่ม SET เมื่อกดแล้ว จะทำให้ Output ใน state ถัดไปเท่ากับ `1`
-- ปุ่ม `K` คือปุ่ม RESET เมื่อกดแล้ว จะทำให้ Output ใน state ถัดไปเท่ากับ `0`
-- ถ้าไม่กดอะไรเลย ก็จะค้าง Output เป็นค่าเดิมไปเรื่อยๆ จนกว่าจะมีการกดปุ่มเกิดขึ้น
-- เมื่อกดปุ่ม `J` และ `K` พร้อมกัน จะเกิดการ Toggle คือ Output จะสลับค่า `0` และ `1` ไปเรื่อยๆทุกๆสัญญาณ `Clock = 1`
-- วงจร JK Flip-flop ทำงานเมื่อสัญญาณ `Clock = 1` เท่านั้น
+## หลักการทำงานของ D Flip-flop
+- จริงๆแล้ว D Flip-flop มันเหมือนกับ JK Flip-flop เลย เพียงแต่ว่ามันมีเพียงแค่ 1 Input คือ `D`
+- เมื่อกดปุ่ม (`D = 1`) จะเป็นการ SET จึงทำให้ Output ใน state ถัดไปเท่ากับ `1`
+- เมื่อไม่กดปุ่ม (`D = 0`) จะเป็นการ RESET จะทำให้ Output ใน state ถัดไปเท่ากับ `0`
+
+[INSERT IMAGE HERE]
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JKtable.png" width=40% height=40%>
 
-## หลักการทำงานของ Master-Slave JK Flip-flop
-- วงจรแบบ Master-Slave จะประกอบไปด้วย 2 Stage คือ Master Stage และ Slave Stage
-- เมื่อสัญญาณ `Clock = 1` จะพบว่าวงจร JK Flip-flop ที่เป็น Master Stage จะเปลี่ยนแปลงค่า แต่ Slave Stage จะยังไม่เปลี่ยนแปลงค่า
-- เมื่อสัญญาณ `Clock = 0` (สัญญาณถัดไป) วงจร JK Flip-flop ที่เป็น Slave Stage ค่อยเปลี่ยนแปลงค่าตาม Master Stage
+## หลักการทำงานของวงจรแบบ Positive Edge และ Negative Edge
+- วงจรแบบ Positive Edge จะมีการเปลี่ยนแปลงค่า Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` **เท่านั้น**
+- วงจรแบบ Negative Edge จะมีการเปลี่ยนแปลงค่า Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `1` เป็น `0` **เท่านั้น**
 
-## ลักษณะวงจร Master-Slave JK Flip-flop
-วงจร Master-Slave JK Flip-flop ที่ยังไม่มีปุ่ม `\Clear` มีลักษณะดังนี้
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK_MS.png" width=60% height=60%>
+ดังนั้นจึงสรุปได้ว่า **Positive Edge Trigger D Flip-flop** คือวงจร D Flip-flop ที่เกิดการเปลี่ยนแปลง Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` **เท่านั้น**
 
 ---
 
-# Step 2: สังเกตวงจร Master-Slave JK Flip-flop
+# Step 2: ต่อวงจร Positive Edge Trigger D Flip-flop
 
-## Master-Slave JK Flip-flop (SET)
+## Negative Edge Trigger D Flip-flop
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_01.png" width=60% height=60%>
+**Negative Edge Trigger D Flip-flop** คือวงจร D Flip-flop ที่เกิดการเปลี่ยนแปลง Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `1` เป็น `0` **เท่านั้น**
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_02.png" width=60% height=60%>
+ซึ่งนี่คือวงจร Negative Edge Trigger D Flip-flop ที่โจทย์ให้มา
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK01_03.png" width=60% height=60%>
+[INSERT IMAGE HERE]
 
-## Master-Slave JK Flip-flop (RESET)
+## Positive Edge Trigger D Flip-flop
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_01.png" width=60% height=60%>
+**Positive Edge Trigger D Flip-flop** คือวงจร D Flip-flop ที่เกิดการเปลี่ยนแปลง Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` **เท่านั้น**
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_02.png" width=60% height=60%>
+จากการที่เรามีวงจร Negative Edge Trigger D Flip-flop ไว้อยู่แล้ว เราสามารถต่อ NOT Gate ที่ `Clock` ได้เลย เพื่อให้สัญญาณ `Clock` ที่เข้าไปในวงจร D Flip-flop ตรงข้ามกับสัญญาณ `Clock` ที่ส่งไป
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK02_03.png" width=60% height=60%>
+- สัญญาณ `Clock` ที่ส่งไปเท่ากับ `0` แต่ค่า `1` เข้าวงจร D Flip-flop
+- สัญญาณ `Clock` ที่ส่งไปเท่ากับ `1` แต่ค่า `0` เข้าวงจร D Flip-flop
+- เพียงเท่านี้ D Flip-flop ก็จะเปลี่ยนแปลงเมื่อ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` แล้ว โดยที่แทบไม่ต้องแก้วงจรอะไรเลย
 
-## Master-Slave JK Flip-flop (TOGGLE)
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_01.png" width=60% height=60%>
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_02.png" width=60% height=60%>
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_03.png" width=60% height=60%>
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_04.png" width=60% height=60%>
-
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JK03_05.png" width=60% height=60%>
+[INSERT IMAGE HERE]
 
 ---
 
-# Step 3: ต่อ `\Clear` เข้ากับวงจร Master-Slave JK Flip-flop
+# Step 3: ต่อ `\Clear` เข้ากับวงจร Positive Edge Trigger D Flip-flop
 
-จากขั้นตอนที่ 2 เราจะเห็นได้ว่า การที่จะทำให้ค่า `Q` เท่ากับ `1` ได้นั้น จะเกิดขึ้นได้จาก
-- บน Master Stage มีการ Output ค่า `P` เท่ากับ `1`
-- บน Slave Stage มีการ Output ค่า `Q` เท่ากับ `1`
+จากขั้นตอนที่ 1 เราจะเห็นได้ว่า การที่จะทำให้ค่า `Q` เท่ากับ `0` ได้นั้น จะต้องทำให้ `D` เท่ากับ `0` ก็คือต้องเอาค่า `0` ไปเข้าวงจร flip-flop ให้ได้นั่นเอง
 
-จากที่ `\Clear` เป็น Asynchronous Input ก็คือถ้าหากกดปุ่ม `\Clear` ก็จะทำให้ค่า `Q` เท่ากับ `0` ทันทีโดยที่ไม่ขึ้นกับสัญญาณ `Clock` นั่นหมายความว่าเราสามารถต่อ `\Clear` เข้ากับ Gate บนวงจรได้โดยตรง
+จากที่ `\Clear` เป็น Synchronous Input ก็คือถึงแม้จะกดปุ่ม `\Clear` ไปแล้ว วงจรจะยังไม่เกิดการเปลี่ยนแปลงทันที ต้องรอสัญญาณ `Clock` ก่อนจึงจะทำให้ `Q` เท่ากับ `0` ดังนั้นเราไม่สามารถต่อ `\Clear` เข้ากับ Gate บนวงจร D Flip-flop ได้โดยตรง และต้องต่อ `Clear` กับ Input `D` เท่านั้น
 
-จากที่ NOR Gate จะ Output เป็น `1` ก็ต่อเมื่อ Input ทั้งหมดเท่ากับ `0` เท่านั้น เราก็จะได้ว่า
-- ถ้าหากต่อ `\Clear` เข้ากับ NOR Gate ที่ Output `P` ก็จะได้ว่าเมื่อ `\Clear = 1` จะได้ `P` เท่ากับ `0` เสมอ
-- ถ้าหากต่อ `\Clear` เข้ากับ NOR Gate ที่ Output `Q` ก็จะได้ว่าเมื่อ `\Clear = 1` จะได้ `Q` เท่ากับ `0` เสมอ
+จากข้อมูลข้างต้น ค่า Input ที่จะเข้า D Flip-flop จะต้องเป็นดังตาราง
 
-ดังนั้นเราจะสามารถต่อวงจร Master-Slave JK Flip-flop ที่มีปุ่ม `\Clear` ได้ดังนี้
+| `\Clear` | `D` | Input ที่เข้าวงจร |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+
+จากตารางข้างต้น จะได้ว่า Input ที่เข้าวงจร D Flip-flop คือ $Input = D(/Clear)'$
+
+ดังนั้นเราจะสามารถต่อวงจร Positive Edge Trigger D Flip-flop ที่มีปุ่ม `\Clear` ได้ดังนี้
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03.png" width=80% height=80%>
