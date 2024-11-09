@@ -12,7 +12,7 @@
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_Dtable.png" width=40% height=40%>
 
 ## หลักการทำงานของ T Flip-flop
-- จริงๆแล้ว T Flip-flop มันเหมือนกับ JK Flip-flop เลย เพียงแต่ว่ามันมีเพียงแค่ 1 Input คือ `D`
+- จริงๆแล้ว T Flip-flop มันเหมือนกับ JK Flip-flop เลย เพียงแต่ว่ามันมีเพียงแค่ 1 Input คือ `T`
 - เมื่อกดปุ่ม (`T = 1`) จะเป็นการ TOGGLE จะทำให้ Output สลับค่า `0` และ `1` ทุกๆสัญญาณ `Clock`
 - เมื่อไม่กดปุ่ม (`T = 0`) จะเป็นการ HOLD จะทำให้ Output ค้างค่าเดิมไว้จนกว่าจะมีการกดปุ่ม
 
