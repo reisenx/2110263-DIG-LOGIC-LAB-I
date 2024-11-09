@@ -47,22 +47,27 @@
 # Laboratory 06
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_06_01`]() | **ALU** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_06_01`](https://drive.google.com/file/d/1wdO0rKlXc6ZgF-pjNcouAHFiz2i_ggcQ/view?usp=drive_link) | **ALU** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2006/diglab_06_01/diglab_06_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2006/diglab_06_01/diglab_06_01_sol.md) |
 
 # Laboratory 07
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_07_01`]() | **Simple Memory** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`diglab_07_02`]() | **RS Latch (NOR)** | [`Circuit`]() | [`Solution`]() |
-| 3 | [`diglab_07_03`]() | **Master-Slave JK Flip-flop** | [`Circuit`]() | [`Solution`]() |
-| 4 | [`diglab_07_04`]() | **Positive Edge Trigger D Flip-flop** | [`Circuit`]() | [`Solution`]() |
-| 5 | [`diglab_07_05`]() | **Positive Edge Trigger T Flip-flop** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_07_01`](https://drive.google.com/file/d/1NrgipxT8azCAr3fIpAGgJQ7WSB5bVbyB/view?usp=drive_link) | **Simple Memory** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_01/diglab_07_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_01/diglab_07_01_sol.md) |
+| 2 | [`diglab_07_02`](https://drive.google.com/file/d/1cgVfOFPNx1t4308w4uD0ok9ajf8SxC4S/view?usp=drive_link) | **RS Latch (NOR)** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_02/diglab_07_02.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_02/diglab_07_02_sol.md) |
+| 3 | [`diglab_07_03`](https://drive.google.com/file/d/1Vu4y7l2ZnqPItOq-FGoYFCJG_-sVJYZJ/view?usp=drive_link) | **Master-Slave JK Flip-flop** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_03/diglab_07_03.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_03/diglab_07_03_sol.md) |
+| 4 | [`diglab_07_04`](https://drive.google.com/file/d/1fX9sh0kI4kq14EfsHhKPfV-efYWBSNvt/view?usp=drive_link) | **Positive Edge Trigger D Flip-flop** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_04/diglab_07_04.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_04/diglab_07_04_sol.md) |
+| 5 | [`diglab_07_05`](https://drive.google.com/file/d/1YXfXM0vEzCiRPlkg4yF5HIltvlN77-V3/view?usp=drive_link) | **Positive Edge Trigger T Flip-flop** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_05/diglab_07_05.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2007/diglab_07_05/diglab_07_05_sol.md) |
 
 # Laboratory 08
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
-| 2 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
-| 3 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
-| 4 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
-| 5 | [``]() | **** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_08_01`](https://drive.google.com/file/d/1-Htl6e35KW_D3sOeCGtP83ouiJdpTkGr/view?usp=drive_link) | **Counter 74163** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`diglab_08_02`](https://drive.google.com/file/d/1lYRzRPoFt2EDzB2NOLTPXLn_0udDn-V9/view?usp=drive_link) | **Serial Adder** | [`Circuit`]() | [`Solution`]() |
+| 3 | [`diglab_08_03`](https://drive.google.com/file/d/1fxxtJ6EBOt1pud1IWCopFBBKMG1IgAq4/view?usp=drive_link) | **Mealy Single Pulser** | [`Circuit`]() | [`Solution`]() |
+| 4 | [`diglab_08_04`](https://drive.google.com/file/d/18AVGglHz6wFCLuAc27jLK6epjX_P1rHt/view?usp=drive_link) | **Mealy Single Pulser with Synchronizer** | [`Circuit`]() | [`Solution`]() |
+| 5 | [`diglab_08_05`](https://drive.google.com/file/d/1Xt7Xsm7_B7kqhWxjrkc16WKNJ4SE_HX7/view?usp=drive_link) | **Moore Single Pulser** | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 09
+| No | Problem Code | Name | ASM Chart | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: | :---: |
+| 1 | [`diglab_09_01`](https://drive.google.com/file/d/1Zv6qg3zZf3TM6NTLDjqChGZf-FNSM2Nr/view?usp=drive_link) | **Vending Machine** | [`ASM Chart`]() | [`Circuit`]() | [`Solution`]() |
