@@ -9,14 +9,14 @@
 - เมื่อกดปุ่ม (`D = 1`) จะเป็นการ SET จะทำให้ Output ใน state ถัดไปเท่ากับ `1`
 - เมื่อไม่กดปุ่ม (`D = 0`) จะเป็นการ RESET จะทำให้ Output ใน state ถัดไปเท่ากับ `0`
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_table.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_Dtable.png" width=40% height=40%>
 
 ## หลักการทำงานของ T Flip-flop
 - จริงๆแล้ว T Flip-flop มันเหมือนกับ JK Flip-flop เลย เพียงแต่ว่ามันมีเพียงแค่ 1 Input คือ `D`
 - เมื่อกดปุ่ม (`T = 1`) จะเป็นการ TOGGLE จะทำให้ Output สลับค่า `0` และ `1` ทุกๆสัญญาณ `Clock`
 - เมื่อไม่กดปุ่ม (`T = 0`) จะเป็นการ HOLD จะทำให้ Output ค้างค่าเดิมไว้จนกว่าจะมีการกดปุ่ม
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_Ttable.png" width=40% height=40%>
 
 ## หลักการทำงานของวงจรแบบ Positive Edge และ Negative Edge
 - วงจรแบบ Positive Edge จะมีการเปลี่ยนแปลงค่า Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` **เท่านั้น**
@@ -34,7 +34,7 @@
 
 ซึ่งนี่คือวงจร Negative Edge Trigger D Flip-flop ที่โจทย์ข้อที่แล้วให้มา
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_DNeg.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_DNeg.png" width=60% height=60%>
 
 ## Negative Edge Trigger T Flip-flop
 
@@ -49,9 +49,9 @@
 | 1 | 0 | 1 | 1 | SET |
 | 1 | 1 | 0 | 0 | RESET |
 
-จากตารางเราจะสรุปได้ว่า $D = T \oplus Q_{t}$ นั่นเอง และสามารถดัดแปลง Negative Edge Trigger D Flip-flop ให้เป็น Negative Edge Trigger D Flip-flop ได้ ดังภาพ
+จากตารางเราจะสรุปได้ว่า $D = T \oplus Q_{t}$ นั่นเอง และสามารถดัดแปลง Negative Edge Trigger D Flip-flop ให้เป็น Negative Edge Trigger T Flip-flop ได้ ดังภาพ
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_TNeg.png" width=60% height=60%>
 
 ## Positive Edge Trigger T Flip-flop
 
@@ -63,7 +63,7 @@
 - สัญญาณ `Clock` ที่ส่งไปเท่ากับ `1` แต่ค่า `0` เข้าวงจร T Flip-flop
 - เพียงเท่านี้ T Flip-flop ก็จะเปลี่ยนแปลงเมื่อ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` แล้ว โดยที่แทบไม่ต้องแก้วงจรอะไรเลย
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05_pics/diglab_07_05_TPos.png" width=60% height=60%>
 
 ---
 
@@ -94,4 +94,4 @@ $Input = (T \oplus Q_{t})(Clear)'$
 
 ดังนั้นเราจะสามารถต่อวงจร Positive Edge Trigger T Flip-flop ที่มีปุ่ม `\Clear` ได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04.png" width=80% height=80%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_05/diglab_07_05.png" width=80% height=80%>
