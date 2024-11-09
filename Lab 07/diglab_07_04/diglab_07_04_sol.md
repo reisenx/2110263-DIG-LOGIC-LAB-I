@@ -9,8 +9,6 @@
 - เมื่อกดปุ่ม (`D = 1`) จะเป็นการ SET จึงทำให้ Output ใน state ถัดไปเท่ากับ `1`
 - เมื่อไม่กดปุ่ม (`D = 0`) จะเป็นการ RESET จะทำให้ Output ใน state ถัดไปเท่ากับ `0`
 
-[INSERT IMAGE HERE]
-
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_table.png" width=40% height=40%>
 
 ## หลักการทำงานของวงจรแบบ Positive Edge และ Negative Edge
