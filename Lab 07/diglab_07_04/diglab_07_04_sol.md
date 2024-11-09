@@ -11,7 +11,7 @@
 
 [INSERT IMAGE HERE]
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03_pics/diglab_07_03_JKtable.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_table.png" width=40% height=40%>
 
 ## หลักการทำงานของวงจรแบบ Positive Edge และ Negative Edge
 - วงจรแบบ Positive Edge จะมีการเปลี่ยนแปลงค่า Output ในจังหวะที่ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` **เท่านั้น**
@@ -29,7 +29,7 @@
 
 ซึ่งนี่คือวงจร Negative Edge Trigger D Flip-flop ที่โจทย์ให้มา
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_DNeg.png" width=60% height=60%>
 
 ## Positive Edge Trigger D Flip-flop
 
@@ -41,7 +41,7 @@
 - สัญญาณ `Clock` ที่ส่งไปเท่ากับ `1` แต่ค่า `0` เข้าวงจร D Flip-flop
 - เพียงเท่านี้ D Flip-flop ก็จะเปลี่ยนแปลงเมื่อ `Clock` เกิดการเปลี่ยนแปลงจาก `0` เป็น `1` แล้ว โดยที่แทบไม่ต้องแก้วงจรอะไรเลย
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04_pics/diglab_07_04_DPos.png" width=60% height=60%>
 
 ---
 
@@ -60,8 +60,8 @@
 | 1 | 0 | 0 |
 | 1 | 1 | 0 |
 
-จากตารางข้างต้น จะได้ว่า Input ที่เข้าวงจร D Flip-flop คือ $Input = D(/Clear)'$
+จากตารางข้างต้น จะได้ว่า Input ที่เข้าวงจร D Flip-flop คือ $Input = D(Clear)'$
 
 ดังนั้นเราจะสามารถต่อวงจร Positive Edge Trigger D Flip-flop ที่มีปุ่ม `\Clear` ได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_03/diglab_07_03.png" width=80% height=80%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_04/diglab_07_04.png" width=80% height=80%>
