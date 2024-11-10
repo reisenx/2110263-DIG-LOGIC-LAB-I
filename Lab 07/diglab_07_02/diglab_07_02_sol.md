@@ -2,9 +2,9 @@
 ### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1cgVfOFPNx1t4308w4uD0ok9ajf8SxC4S/view?usp=drive_link)
 
 ---
-# Combinatorial and Sequential Logic
+# Combinational and Sequential Logic
 
-| Topic | Combinatorial Logic | Sequential Logic |
+| Topic | Combinational Logic | Sequential Logic |
 | :---: | :--- | :--- |
 | **Output** | ขึ้นอยู่กับแค่ Input ที่ใส่เข้าไปเท่านั้น | ขึ้นอยู่กับทั้ง Input ที่ใส่เข้าไป และ Output ของ state ก่อนหน้าด้วย |
 | **Memory** | ไม่ต้องการ Memory | ต้องการ Memory (เช่น Latch, Filp-flop) เพื่อเก็บข้อมูล Output ใน state ก่อนหน้า |
