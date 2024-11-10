@@ -18,19 +18,20 @@
 
 **ตัวอย่าง:** State Diagram ของ RS Latch
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_stateDiagram.jpg" width=60% height=60%>
+
 
 Finite State Machine จะสามารถแบ่งออกได้เป็น 2 ประเภทคือ Mealy Machine และ Moore Machine
 
 ## Mealy Machine
 **Mealy Machine** คือวงจรที่ใช้งาน Input ทั้งในวงจรในการหา state ถัดไป และในวงจรที่หา Output ด้วย
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_mealy.png" width=60% height=60%>
 
 ## Moore Machine
 **Moore Machine** คือวงจรที่ใช้งาน Input ในวงจรในการหา state ถัดไปเพียงอย่างเดียว
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_moore.png" width=60% height=60%>
 
 ---
 
@@ -44,7 +45,7 @@ Finite State Machine จะสามารถแบ่งออกได้เ�
 - `S` ใช้เก็บผลบวก `A + B`
 - ค่า $C_{out}$ ถูกเก็บไว้ใน Memory (D Flip-flop) เพื่อใช้เป็น $C_{in}$ ในการบวกเลขหลักถัดไป
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_serialAdder.png" width=60% height=60%>
 
 ---
 
@@ -56,7 +57,7 @@ Finite State Machine จะสามารถแบ่งออกได้เ�
 - ต่อ Output `Z` เข้ากับ Adder
 - ต่อ $C_{out}$ เข้ากับ D Flip-flop เพื่อเก็บตัวทดไปใช้กับการบวกเลขหลักถัดไป
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_adder.png" width=60% height=60%>
 
 ## ต่อปุ่ม `\Clear` เข้าไปในวงจร
 
@@ -64,6 +65,6 @@ Finite State Machine จะสามารถแบ่งออกได้เ�
 - ต่อ Multiplexer ให้ RESET `Z = 0` เมื่อ `\Clear = 0`
 - ต่อ Multiplexer ให้ RESET Memory ที่เก็บตัวทดให้เท่ากับ 0 เมื่อ `\Clear = 0`
 
-[INSERT IMAGE HERE]
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02.png" width=80% height=80%>
 
 เพียงเท่านี้ก็จะได้ Serial Adder ขนาด 1 Bit ที่เป็น Mealy Machine แล้ว
