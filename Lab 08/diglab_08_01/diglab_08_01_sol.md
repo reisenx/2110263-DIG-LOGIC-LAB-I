@@ -49,7 +49,7 @@
 เนื่องจากวงจรนี้จะนับเลขก็ต่อเมื่อ `P` และ `T` เท่ากับ `1` ทั้งคู่ ถ้าหากมีตัวใดตัวหนึ่งเป็น `0` ให้ HOLD ค่าเดิมเอาไว้ ดังนั้นเราจะต้อง
 - ใช้ Multiplexer ที่มีช่องหนึ่งเชื่อมกับวงจร Adder เพื่อให้วงจรบวกเลขไปเรื่อยๆ
 - อีกช่องหนึ่งต่อกับ Output ใน State ที่แล้ว เพื่อ HOLD ค่าเดิมเอาไว้
-- ใช้ $Selector = PT$ เพื่อให้ Selector เท่ากับ `1` เมื่อ `P` และ `T` เท่ากับ `1` ทั้งคู่เท่านั้น
+- ใช้ Selector = PT เพื่อให้ Selector เท่ากับ `1` เมื่อ `P` และ `T` เท่ากับ `1` ทั้งคู่เท่านั้น
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_01/diglab_08_01_pics/diglab_08_01_adderEnable.png" width=60% height=60%>
 
