@@ -26,12 +26,12 @@ Finite State Machine จะสามารถแบ่งออกได้เ�
 ## Mealy Machine
 **Mealy Machine** คือวงจรที่ใช้งาน Input ทั้งในวงจรในการหา state ถัดไป และในวงจรที่หา Output ด้วย
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_mealy.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_mealy.png" width=80% height=80%>
 
 ## Moore Machine
 **Moore Machine** คือวงจรที่ใช้งาน Input ในวงจรในการหา state ถัดไปเพียงอย่างเดียว
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_moore.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_moore.png" width=80% height=80%>
 
 ---
 
@@ -45,7 +45,7 @@ Finite State Machine จะสามารถแบ่งออกได้เ�
 - `S` ใช้เก็บผลบวก `A + B`
 - ค่า $C_{out}$ ถูกเก็บไว้ใน Memory (D Flip-flop) เพื่อใช้เป็น $C_{in}$ ในการบวกเลขหลักถัดไป
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_serialAdder.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_02/diglab_08_02_pics/diglab_08_02_serialAdder.png" width=80% height=80%>
 
 ---
 
