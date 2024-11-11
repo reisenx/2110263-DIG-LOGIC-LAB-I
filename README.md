@@ -61,13 +61,13 @@
 # Laboratory 08
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`diglab_08_01`](https://drive.google.com/file/d/1-Htl6e35KW_D3sOeCGtP83ouiJdpTkGr/view?usp=drive_link) | **Counter 74163** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`diglab_08_02`](https://drive.google.com/file/d/1lYRzRPoFt2EDzB2NOLTPXLn_0udDn-V9/view?usp=drive_link) | **Serial Adder** | [`Circuit`]() | [`Solution`]() |
-| 3 | [`diglab_08_03`](https://drive.google.com/file/d/1fxxtJ6EBOt1pud1IWCopFBBKMG1IgAq4/view?usp=drive_link) | **Mealy Single Pulser** | [`Circuit`]() | [`Solution`]() |
-| 4 | [`diglab_08_04`](https://drive.google.com/file/d/18AVGglHz6wFCLuAc27jLK6epjX_P1rHt/view?usp=drive_link) | **Mealy Single Pulser with Synchronizer** | [`Circuit`]() | [`Solution`]() |
-| 5 | [`diglab_08_05`](https://drive.google.com/file/d/1Xt7Xsm7_B7kqhWxjrkc16WKNJ4SE_HX7/view?usp=drive_link) | **Moore Single Pulser** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`diglab_08_01`](https://drive.google.com/file/d/1-Htl6e35KW_D3sOeCGtP83ouiJdpTkGr/view?usp=drive_link) | **Counter 74163** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_01/diglab_08_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_01/diglab_08_01_sol.md) |
+| 2 | [`diglab_08_02`](https://drive.google.com/file/d/1lYRzRPoFt2EDzB2NOLTPXLn_0udDn-V9/view?usp=drive_link) | **Serial Adder** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_02/diglab_08_02.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_02/diglab_08_02_sol.md) |
+| 3 | [`diglab_08_03`](https://drive.google.com/file/d/1fxxtJ6EBOt1pud1IWCopFBBKMG1IgAq4/view?usp=drive_link) | **Mealy Single Pulser** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_03/diglab_08_03.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_03/diglab_08_03_sol.md) |
+| 4 | [`diglab_08_04`](https://drive.google.com/file/d/18AVGglHz6wFCLuAc27jLK6epjX_P1rHt/view?usp=drive_link) | **Mealy Single Pulser with Synchronizer** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_04/diglab_08_04.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_04/diglab_08_04_sol.md) |
+| 5 | [`diglab_08_05`](https://drive.google.com/file/d/1Xt7Xsm7_B7kqhWxjrkc16WKNJ4SE_HX7/view?usp=drive_link) | **Moore Single Pulser** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_05/diglab_08_05.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_05/diglab_08_05_sol.md) |
 
-# Laboratory 09
+# Laboratory 09 (Coming Soon)
 | No | Problem Code | Name | ASM Chart | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | 1 | [`diglab_09_01`](https://drive.google.com/file/d/1Zv6qg3zZf3TM6NTLDjqChGZf-FNSM2Nr/view?usp=drive_link) | **Vending Machine** | [`ASM Chart`]() | [`Circuit`]() | [`Solution`]() |
