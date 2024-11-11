@@ -73,7 +73,7 @@
 - ถ้า `P = 0` ยังไงผลที่ออกมาก็เป็น `0`
 - ถ้า `P = 1` จะได้สัญญาณ pulse ที่มาจาก D Flip-flop 2 ตัวล่าง
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_03/diglab_08_03_pics/diglab_08_03_moreDelay.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2008/diglab_08_05/diglab_08_05_pics/diglab_08_05_moreDelay.png" width=60% height=60%>
 
 แต่เนื่องจากว่าวงจรนี้เป็นแบบ Moore Machine เราจึงจำเป็นที่จะต้องต่อ D Flip-flop อีกตัวบน Input `P` เพื่อไม่ให้ `P` มีผลต่อ Output Combinational Logic จึงได้วงจรเป็นดังนี้
 
