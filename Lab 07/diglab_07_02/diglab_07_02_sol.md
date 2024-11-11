@@ -4,6 +4,8 @@
 ---
 # Combinational and Sequential Logic
 
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/Lab%2007/diglab_07_02/diglab_07_02_pics/diglab_07_02_sequential.png" width=80% height=80%>
+
 | Topic | Combinational Logic | Sequential Logic |
 | :---: | :--- | :--- |
 | **Output** | ขึ้นอยู่กับแค่ Input ที่ใส่เข้าไปเท่านั้น | ขึ้นอยู่กับทั้ง Input ที่ใส่เข้าไป และ Output ของ state ก่อนหน้าด้วย |
