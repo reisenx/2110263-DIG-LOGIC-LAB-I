@@ -1,4 +1,4 @@
-# Mealy Single Pulser (diglab_08_02)
+# Mealy Single Pulser (diglab_08_03)
 ### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1fxxtJ6EBOt1pud1IWCopFBBKMG1IgAq4/view?usp=drive_link)
 
 ---
@@ -18,7 +18,7 @@
 
 ---
 
-# Step 2: ต่อวงจร Single Pulser
+# Step 2: ต่อวงจร Single Pulser แบบ Mealy Machine
 
 ## สังเกตการทำงานของ D Flip-flop
 
