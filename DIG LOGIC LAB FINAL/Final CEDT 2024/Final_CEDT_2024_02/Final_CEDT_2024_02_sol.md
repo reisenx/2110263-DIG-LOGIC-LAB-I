@@ -55,6 +55,73 @@
 
 ## ต่อวงจรคำนวณค่า `A`
 
-จากที่เราได้ค่า `W` และ `H` การจะหา `A` ก็ไม่ยากแล้ว สามารถนำมาต่อวงจรคูณได้เลย
+จากที่เราได้ค่า `W` และ `H` มาแล้ว เราก็แค่เอา `W` และ `H` มาต่อวงจรคูณก็จะได้ค่า `A` ออกมาแล้ว
 
 <img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_calculate2.png" width=60% height=60%>
+
+---
+# Step 3: ต่อวงจรในส่วนของ Memory
+
+ในส่วนของ Memory นั้น เราก็จะใช้ตัวของ D Flip-flop เพราะว่าเป็นตัวที่ใช้ง่ายที่สุดแล้ว
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_flipflop.png" width=60% height=60%>
+
+---
+# Step 4: ต่อวงจรในส่วนของ `start` และ `busy`
+
+## ต่อ Single Pulser กับ `start`
+
+### อ่านเกี่ยวกับ Single Pulser [Click Here!](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/Lab%2008/diglab_08_05/diglab_08_05_sol.md)
+
+จากที่โจทย์บอกว่า `busy` จะเท่ากับ `1` ก็ต่อเมื่อวงจรกำลังคำนวณค่า `W`, `H` และ `A` อยู่ ถ้าคำนวณเสร็จแล้วให้เปลี่ยนเป็น `0` ทันที
+
+จากที่เราได้ใช้ความรู้ Calculus ไปในขั้นตอนแรก ทำให้เราต้องการใช้ระยะเวลาคำนวณค่า `W`, `H` และ `A` เพียงแค่ 1 clock เท่านั้น
+
+ดังนั้นถ้าเราต้องการให้สัญญาณ `busy` มีค่าเท่ากับ `1` เพียงแค่ 1 clock จะได้ว่าเราสามารถต่อ `start` กับ Single Pulser แล้วให้ Output ออกเป็น `busy` ได้เลย
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_start.png" width=60% height=60%>
+
+## ต่อ `busy` เข้ากับวงจร
+
+จากโจทย์บอกว่า ถ้าหากคำนวณเสร็จแล้วจะต้องค้างค่าเอาไว้ ถ้ายังไม่ได้กด `reset` ค่า `H`, `W` และ `A` จะต้องไม่เปลี่ยนแปลงถึงแม้ว่าจะมีการเปลี่ยนแปลงค่า `P` ระหว่างนั้นก็ตาม
+
+ในวงจรปัจจุบัน ถ้าหากเราเปลี่ยนค่า `P` ไป ค่า `H`, `W` และ `A` ก็จะเปลี่ยนแปลงตามไปด้วย ซึ่งเราไม่ต้องการให้เป็นเช่นนั้น
+
+ลองสังเกตการทำงานของ D Flip-flop
+- เมื่อ `busy` เท่ากับ `1` จะนำค่า `P` มาคำนวณใหม่
+- เมื่อ `clock` บน D Flip-flop เท่ากับ `1` จะทำการเก็บค่าใหม่
+- เมื่อ `busy` เท่ากับ `0` จะค้างค่า `P` ค่าเดิมเอาไว้
+- เมื่อ `clock` บน D Flip-flop เท่ากับ `0` จะค้างค่าเดิมเอาไว้
+
+ดังนั้นเราสามารถต่อ `busy` เข้ากับ `clock` ของ D Flip-flop เพื่อ HOLD ค่าหรือ SET ค่าใหม่ได้
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_start2.png" width=60% height=60%>
+
+---
+# Step 5: ต่อวงจรในส่วนของ `reset`
+
+ในส่วนนี้ก็เป็นส่วนสุดท้ายของการต่อวงจรแล้ว โดยเมื่อมีการกดปุ่ม `reset` นั้น จะรีเซ็ตทุกค่าวงจรให้กลับไปเป็นค่าเริ่มต้น ก็คือ
+
+- ค่า `W`, `H` และ `A` เท่ากับ `0` ทั้งหมด
+- ค่า `busy` เท่ากับ `0`
+
+## ต่อ `reset` เข้ากับวงจรหลัก
+
+- ใช้งาน Multiplexer ให้ output ค่า `0` ออกมา เมื่อค่า `reset` เท่ากับ `1`
+- เนื่องจากวงจรเป็นแบบ synchronous จึงต้องต่อ Multiplexer หน้า `clock` ของ D Flip-flop ที่ใช้เก็บ Memory
+- ในระหว่างที่ `reset` เท่ากับ `1` ไม่ว่าจะเปลี่ยนแปลงค่า `P` อย่างไร ค่าจะต้องเป็น `0` ตลอด จึงต้องต่อ Multiplexer หลัง D Flip-flop ที่ใช้ HOLD และ SET ค่า
+
+เราจะต่อ `reset` เข้ากับวงจรหลักได้ดังนี้
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_reset.png" width=60% height=60%>
+
+## ต่อ `reset` เข้ากับ `busy`
+
+- ในระหว่างที่ `reset` เท่ากับ `1` ค่า `busy` จะต้องเท่ากับ 0
+- เนื่องจากวงจรเป็นแบบ synchronous เราจะไม่สามารถต่อ `reset` กับค่า `busy` โดยตรงได้ เราจะต้องนำ `reset` ไปต่อกับ `start` แทน
+
+ซึ่งสามารถต่อวงจรออกมาได้ดังนี้
+
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02.png" width=80% height=80%>
+
+เพียงเท่านี้ วงจรของเราก็เป็นอันเสร็จสิ้น
