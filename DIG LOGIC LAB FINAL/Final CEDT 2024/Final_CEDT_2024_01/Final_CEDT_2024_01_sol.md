@@ -6,7 +6,7 @@
 
 จากโจทย์ได้กำหนด State Diagram ของ Counter มาดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_diagram.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_diagram.png" width=60% height=60%>
 
 เพื่อเป็นการประหยัดเวลา เราสามารถใช้งาน `Analysis` ของโปรแกรม Digital ได้
 - ไปยังแถบเมนูข้างบน แล้วกดปุ่ม `Analysis`
@@ -32,7 +32,7 @@
 
 บนวงจร Counter จะใช้งาน Output `A`, `B` และ `C` ของ State ก่อนหน้า มาใช้เป็น Input ใน State ปัจจุบัน ซึ่งค่าพวกนี้เราจะใช้ D Flip-flop ในการเก็บค่าไว้ทุกๆสัญญาณ `clock` ดังนั้นเราจะต้องต่อวงจรที่มีลักษณะดังภาพ
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_flipflop.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_flipflop.png" width=60% height=60%>
 
 เมื่อลองกด Run วงจร จะเห็นได้ว่าวงจรนี้สามารถนับเลขตาม State Diagram ของโจทย์ได้แล้ว
 
@@ -51,7 +51,7 @@
 
 จึงได้วงจรที่มีลักษณะดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_load.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_pics/Final_CEDT_2024_01_load.png" width=60% height=60%>
 
 ---
 # Step 4: ติดตั้ง `reset` บน Counter
@@ -68,7 +68,7 @@
 
 จึงได้วงจรที่มีลักษณะดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01.png" width=80% height=80%>
 
 เพียงเท่านี้ก็จะได้วงจร Counter มาเรียบร้อยแล้ว
 
