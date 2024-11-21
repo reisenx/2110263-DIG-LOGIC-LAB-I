@@ -86,8 +86,8 @@
 # Final CEDT 2024
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`Final_CEDT_2024_01`]() | **Counter** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`Final_CEDT_2024_02`]() | **Rectangle** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`Final_CEDT_2024_01`]() | **Customized Counter** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`Final_CEDT_2024_02`]() | **Maximum Rectangle Area** | [`Circuit`]() | [`Solution`]() |
 | 3 | [`Final_CEDT_2024_03`]() | **Increasing Number** | [`Circuit`]() | [`Solution`]() |
 
 # Final CP 2024 (Coming Soon)
