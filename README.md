@@ -71,3 +71,28 @@
 | No | Problem Code | Name | ASM Chart | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: | :---: |
 | 1 | [`diglab_09_01`](https://drive.google.com/file/d/1Zv6qg3zZf3TM6NTLDjqChGZf-FNSM2Nr/view?usp=drive_link) | **Vending Machine** | [`ASM Chart`]() | [`Circuit`]() | [`Solution`]() |
+
+# Laboratory 10 (Coming Soon)
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`diglab_10_01`]() | **Sorting Circuit** | [`Circuit`]() | [`Solution`]() |
+
+# Midterm CP 2024 (Coming Soon)
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`Midterm_CP_2024_01`]() | **Combinational Circuit** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`Midterm_CP_2024_02`]() | **Bits Priority** | [`Circuit`]() | [`Solution`]() |
+
+# Final CEDT 2024
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`Final_CEDT_2024_01`]() | **Counter** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`Final_CEDT_2024_02`]() | **Rectangle** | [`Circuit`]() | [`Solution`]() |
+| 3 | [`Final_CEDT_2024_03`]() | **Increasing Number** | [`Circuit`]() | [`Solution`]() |
+
+# Final CP 2024 (Coming Soon)
+| No | Problem Code | Name | Circuit | Solution |
+| :---: | :---: | :--- | :---: | :---: |
+| 1 | [`Final_CP_2024_01`]() | **???** | [`Circuit`]() | [`Solution`]() |
+| 2 | [`Final_CP_2024_02`]() | **???** | [`Circuit`]() | [`Solution`]() |
+| 3 | [`Final_CP_2024_03`]() | **???** | [`Circuit`]() | [`Solution`]() |
