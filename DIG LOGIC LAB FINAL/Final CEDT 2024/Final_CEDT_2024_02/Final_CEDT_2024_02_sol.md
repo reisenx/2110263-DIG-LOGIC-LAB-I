@@ -113,7 +113,7 @@
 
 เราจะต่อ `reset` เข้ากับวงจรหลักได้ดังนี้
 
-<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_reset.png" width=60% height=60%>
+<img src="https://raw.githubusercontent.com/reisenx/2110263-DIG-LOGIC-LAB-I/refs/heads/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_pics/Final_CEDT_2024_02_reset.png" width=80% height=80%>
 
 ## ต่อ `reset` เข้ากับ `busy`
 
