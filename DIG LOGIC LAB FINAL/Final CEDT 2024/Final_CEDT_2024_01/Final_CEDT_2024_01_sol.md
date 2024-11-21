@@ -1,4 +1,4 @@
-# Customized Coun (Final_CEDT_2024_01)
+# Customized Counter (Final_CEDT_2024_01)
 ### อ่านโจทย์ได้ที่นี่ [Click Here!](https://drive.google.com/file/d/1DvqnHA6jqbcGCZNRFNP_SnzFDtsfz0UN/view?usp=drive_link)
 
 ---
