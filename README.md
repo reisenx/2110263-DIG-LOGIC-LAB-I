@@ -86,9 +86,9 @@
 # Final CEDT 2024
 | No | Problem Code | Name | Circuit | Solution |
 | :---: | :---: | :--- | :---: | :---: |
-| 1 | [`Final_CEDT_2024_01`]() | **Customized Counter** | [`Circuit`]() | [`Solution`]() |
-| 2 | [`Final_CEDT_2024_02`]() | **Maximum Rectangle Area** | [`Circuit`]() | [`Solution`]() |
-| 3 | [`Final_CEDT_2024_03`]() | **Increasing Number** | [`Circuit`]() | [`Solution`]() |
+| 1 | [`Final_CEDT_2024_01`](https://drive.google.com/file/d/1DvqnHA6jqbcGCZNRFNP_SnzFDtsfz0UN/view?usp=drive_link) | **Customized Counter** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_01/Final_CEDT_2024_01_sol.md) |
+| 2 | [`Final_CEDT_2024_02`](https://drive.google.com/file/d/1CnchQMcLPwW56ep3hJi0VOsAiVZoz9JL/view?usp=drive_link) | **Maximum Rectangle Area** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_02/Final_CEDT_2024_02_sol.md) |
+| 3 | [`Final_CEDT_2024_03`](https://drive.google.com/file/d/1QeVnTaI-H_FD2S3z-QFDiky2BOBAemHI/view?usp=drive_link) | **Increasing Number** | [`Circuit`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_03/Final_CEDT_2024_03.dig) | [`Solution`](https://github.com/reisenx/2110263-DIG-LOGIC-LAB-I/blob/main/DIG%20LOGIC%20LAB%20FINAL/Final%20CEDT%202024/Final_CEDT_2024_03/Final_CEDT_2024_03_sol.md) |
 
 # Final CP 2024 (Coming Soon)
 | No | Problem Code | Name | Circuit | Solution |
